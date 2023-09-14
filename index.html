@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <title>edit image source and contetx menu</title>
+</head>
+<body>
+  <div class="container">
+ <div class="text">
+ <h1>right click in image to change source </h1>
+<h2 id="notify"></h2>
+<p><abbr title=""></abbr></p>
+ </div>
+ <div id="img" class="img"></div>
+
+  </div>
+  <div id="contextMenu" class="contextMenu block">
+    <div class="menu block">
+      <h1 class="block">add image url</h1>
+      <input class="block" id="srcInput" placeholder="plaste url" type="text">
+      <i>or</i>
+      <span class="block" id="generate">generte random url</span>
+      <button class="block" id="btn" >set image</button>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
